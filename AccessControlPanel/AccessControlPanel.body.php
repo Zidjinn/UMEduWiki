@@ -24,7 +24,6 @@ class AccessControlPanel extends SpecialPage {
 
 	function AccessControlPanel() {
 		parent::__construct( 'AccessControlPanel', 'protect' );
-		wfLoadExtensionMessages('AccessControlPanel');
 	}
 
 	/**
